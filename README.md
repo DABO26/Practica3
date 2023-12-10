@@ -20,7 +20,7 @@ Lo primero que se debe hacer al abrir este proyecto es abrir una terminal y ejec
 
 Luego, se tendra que ejecutar el comando `npx react-native start` seguido por el comando (se recomienda abrir otra terminal para no tener problemas) `npx react-native run-android`.
 
-Por último, se tiene abrir el buscador de windows y ejecutar el programa Síbolo del sistema, aquí se debe ejectuar el comando `ipconfig` y se tendra que copiar la dirección ipv4 de nuestro dispositivo y reemplazarla por la dirección que aparece dentro del archivo userApi.jsx
+Por último, se tiene que abrir el buscador de windows y ejecutar el programa Símbolo del sistema, aquí se debe ejectuar el comando `ipconfig` y se tendrá que copiar la dirección ipv4 de nuestro dispositivo y reemplazarla por la dirección que aparece dentro del archivo userApi.jsx
 ## Casos especiales
 Si los comandos utilizados anteriormente no se estan ejecutan es posible que no tenga instaladas las dependecias necesarias para ejecutar estos proyectos, por lo que a continuación habra una lista de los elementos que tendra que descargar si desea ejecutar estos proyectos:
 - https://getcomposer.org/ (descargar y ejecutar instalador)

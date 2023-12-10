@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "885dad19-43b4-4528-8041-3d1e440109b1",
+		"name": "Practica 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29631716"
+	},
+	"item": [
+		{
+			"name": "get user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.130:8000/api/profile",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"130"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"Juan\",\r\n    \"lastName\": \"Perez\",\r\n    \"email\": \"juan@correo.com\",\r\n    \"country\": \"Chile\",\r\n    \"summary\": \"Buenas tardes, soy Juan\",\r\n    \"frameworks\": [\r\n        {\r\n            \"id\": 1,\r\n            \"name\": \"React\",\r\n            \"level\": \"Intermedio\",\r\n            \"year\": 2019\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"name\": \"Meteor\",\r\n            \"level\": \"Basico\",\r\n            \"year\": 2020\r\n        }\r\n    ],\r\n    \"hobbies\": [\r\n        {\r\n            \"id\": 1,\r\n            \"name\": \"Gaming\",\r\n            \"description\": \"Jugar videojuegos\"\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"name\": \"Leer\",\r\n            \"description\": \"Leer libros\"\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"name\": \"Natacion\",\r\n            \"description\": \"Practicar natacion\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.1.130:8000/api/update/1",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"130"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"update",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
